@@ -1,5 +1,5 @@
 
-FROM httpd:latest
+FROM httpd:2.3
 MAINTAINER teste
 COPY index.html /var/www/html/
 CMD [“httpd”, “-k”, "start"]
