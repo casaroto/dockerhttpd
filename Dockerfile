@@ -1,5 +1,5 @@
 
-FROM openshift/httpd:2.3
+FROM httpd:2.4
 MAINTAINER teste
 COPY index.html /var/www/html/
 CMD [“httpd”, “-k”, "start"]
